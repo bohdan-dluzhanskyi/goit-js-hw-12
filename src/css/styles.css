@@ -34,14 +34,14 @@ h1 {
 }
 
 /* форма пошуку */
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 24px;
 }
 
-.search-form input {
+.form input {
   flex: 1;
   max-width: 300px;
   padding: 8px 12px;
@@ -50,7 +50,7 @@ h1 {
   font-size: 14px;
 }
 
-.search-form button {
+.form button {
   background: #4c6ef5;
   color: #fff;
   border: none;
@@ -60,7 +60,7 @@ h1 {
   cursor: pointer;
 }
 
-.search-form button:hover {
+.form button:hover {
   background: #364fc7;
 }
 

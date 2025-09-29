@@ -8,7 +8,7 @@
   </head>
   <body>
     <main class="container">
-      <form id="search-form" class="search-form">
+      <form id="search-form" class="form">
         <input
           type="text"
           name="query"
@@ -19,13 +19,13 @@
         <button type="submit">Search</button>
       </form>
 
-      <section class="gallery-section">
-        <div id="gallery" class="gallery"></div>
-      </section>
+      <ul class="gallery" id="gallery"></ul>
 
       <div class="controls">
         <button id="load-more" class="load-more hidden">Load more</button>
-        <div id="loader" class="loader hidden">Loading...</div>
+        <span id="loader" class="loader hidden"
+          >Loading images, please wait...</span
+        >
       </div>
     </main>
 

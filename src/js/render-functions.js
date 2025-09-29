@@ -42,8 +42,8 @@ export function createGallery(images, append = true) {
 }
 
 export function clearGallery() {
-  galleryContainer.innerHTML = '';
-  lightbox.refresh();
+  const gallery = document.querySelector('.gallery');
+  if (gallery) gallery.innerHTML = '';
 }
 
 export function showLoader() {
